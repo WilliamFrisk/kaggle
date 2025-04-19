@@ -1,10 +1,10 @@
 # utils/default_imports.py
 
 # Basic utils
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import numpy as np # type: ignore
+import pandas as pd # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns # type: ignore
 
 # ML libraries
 ...
