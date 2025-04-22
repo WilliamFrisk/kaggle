@@ -28,6 +28,25 @@ create_structure() {
     "\\n",
     "from default_imports import *"
 ]
+},
+{
+"cell_type": "code",
+"execution_count": null,
+"metadata": {},
+"outputs": [],
+"source": [
+    "# Load data\\n",
+    "raw_train_df = pd.read_csv('../data/raw/train.csv')\\n",
+    "raw_test_df = pd.read_csv('../data/raw/test.csv')"
+]
+},
+{
+"cell_type": "markdown",
+"metadata": {},
+"source": [
+    "# Data Exploration\\n",
+    "01_data_exploration.ipynb"
+]
 }
 ],
 "metadata": {
